@@ -34,8 +34,9 @@ export default function RootLayout({
     // </html>
     <html lang="ja">
       <body>
-        <Header/>
+        <Header />
         {children}
+        <footer />
       </body>
     </html>
   );
